@@ -1,0 +1,24 @@
+{
+  "name": "acme-website-tailwind-practise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier":"npx prettier --write **/*.html "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FridahWatetuMuthoni/acme-website-tailwind-practise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FridahWatetuMuthoni/acme-website-tailwind-practise/issues"
+  },
+  "homepage": "https://github.com/FridahWatetuMuthoni/acme-website-tailwind-practise#readme",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.1.13"
+  }
+}
